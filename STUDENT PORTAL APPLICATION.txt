@@ -1,0 +1,9 @@
+STUDENT PORTAL APPLICATION
+1. NAME: B.Priti
+2. ROLL NO: 08
+3. COLLEGE: Aditya degree college
+4. BRANCH: Ramnagar
+5. STREAM: BSC
+6. YEAR: 2026
+7. PHONE NO: 9154385007
+8. EMAIL: priti456@gmail.com
