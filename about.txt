@@ -1,0 +1,5 @@
+NAME - Priti Bisoyi
+
+COURSE - Bsc computer science
+ 
+GITHUB - built upon the Git version control system, allows multiple individuals to work on the same codebase simultaneously without overwriting each other's changes. This is achieved by enabling users to modification made to files, creating a history of the project. Making it easy for distributed teams to share code, review each other's work and manage project progress.
