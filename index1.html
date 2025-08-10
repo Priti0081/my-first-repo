@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Change Password — Example</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Change Password</h1>
+
+    <form id="changeForm" novalidate>
+      <label for="current">Current password</label>
+      <input id="current" name="current" type="password" autocomplete="current-password" required />
+
+      <label for="newpw">New password</label>
+      <input id="newpw" name="newpw" type="password" autocomplete="new-password" required />
+      <div class="pw-hint" id="pwHint">Use 8+ characters. Add letters, numbers & symbols.</div>
+
+      <div class="strength">
+        <div id="strengthBar" aria-hidden="true"></div>
+        <div id="strengthText" class="strength-text">Strength: —</div>
+      </div>
+
+      <label for="confirm">Confirm new password</label>
+      <input id="confirm" name="confirm" type="password" autocomplete="new-password" required />
+
+      <div class="errors" id="errors" aria-live="polite"></div>
+
+      <div class="actions">
+        <button id="submitBtn" type="submit">Change password</button>
+      </div>
+    </form>
+
+    <div id="result" class="result" aria-live="polite"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
